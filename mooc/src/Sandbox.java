@@ -33,5 +33,21 @@ public class Sandbox {
         System.out.println("Integer variable: " + wholeNumber);
         System.out.println("Floating-point variable: " + floatingPoint);
         System.out.println("Boolean: " + trueOrFalse);
+
+        int value = 10;
+        System.out.println(value);
+        value = 4;
+        System.out.println(value);
+
+        int number = 123;
+        System.out.println("The value of the variable is " + number);
+
+        number = 42;
+        System.out.println("The value of the variable is " + number);
+
+        String valueAsString = "42";
+        int value2 = Integer.parseInt(valueAsString);
+        System.out.println(value2);
+
     }
 }

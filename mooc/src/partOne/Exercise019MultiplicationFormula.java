@@ -2,7 +2,7 @@ package partOne;
 
 import java.util.Scanner;
 
-public class Exercise18AdditionFormula {
+public class Exercise019MultiplicationFormula {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,6 +12,6 @@ public class Exercise18AdditionFormula {
         System.out.println("Give the second number:");
         int second = Integer.parseInt(scanner.nextLine());
 
-        System.out.println(first + " + " + second + " = " + (first + second));
+        System.out.println(first + " * " + second + " = " + (first * second));
     }
 }

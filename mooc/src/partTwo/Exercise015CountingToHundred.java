@@ -2,7 +2,7 @@ package partTwo;
 
 import java.util.Scanner;
 
-public class Exercise015CountingToHunderd {
+public class Exercise015CountingToHundred {
     public static void main(String[] args) {
         Scanner reader = new Scanner(System.in);
 
